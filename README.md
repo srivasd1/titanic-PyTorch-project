@@ -12,7 +12,6 @@ The test set should be used to see how well your model performs on unseen data. 
 
 ## Features
 - preprocessing pipeline
-- feature engineering
 - PyTorch model
 - prediction pipeline
 
