@@ -1,0 +1,22 @@
+{
+	"drop_columns":["PassengerId", "Name", "Ticket", "Cabin"],
+	"fillna": {
+		"Age": "median",
+		"Fare": "median",
+		"Embarked":"mode"
+	},
+	"sex_mapping":{
+	"male" : 0,
+	"Female" : 1
+	},
+	"feature_columns":[
+	 "Pclass",
+	 "Sex",
+	 "Age",
+         "SibSp",
+	 "Parch",
+	 "Fare",
+	 "Embarked_Q",
+	 "Embarked_S"
+	]	
+}
